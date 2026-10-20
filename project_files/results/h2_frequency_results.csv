@@ -1,0 +1,7 @@
+Frequency Band,Clinical Content,Linkage Accuracy (%),Accuracy 95% CI,Linkage AUC-ROC,AUC 95% CI
+LL (Low-Frequency Approx),Macroscopic tissue color & illumination,53.4,"[50.30%, 56.30%]",0.6033,"[0.5703, 0.6395]"
+LH (Horizontal Detail),Horizontal boundaries & organ contours,50.0,"[46.90%, 53.00%]",0.5907,"[0.5536, 0.6259]"
+HL (Vertical Detail),Vertical tissue structures & smoke edges,50.1,"[46.90%, 53.00%]",0.5797,"[0.5423, 0.6149]"
+HH (Diagonal Detail),Fine tissue texture & microsurgical marks,50.0,"[46.90%, 53.00%]",0.6075,"[0.5704, 0.6416]"
+Full Spectrum (Baseline),Complete PFAN restored frame,63.8,"[60.90%, 66.70%]",0.7153,"[0.6842, 0.7465]"
+Random Chance Baseline,Theoretical uninformative floor,50.0,—,0.5,—

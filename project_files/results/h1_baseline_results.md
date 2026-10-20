@@ -1,0 +1,9 @@
+# Table I: H1 Baseline Privacy Linkage Audit
+
+| Frame Condition | Linkage Accuracy (%) | Accuracy 95% CI | Linkage AUC-ROC | AUC 95% CI |
+|:---|:---:|:---:|:---:|:---:|
+| **Smoky (Degraded Input)** | 60.3 | [57.20%, 63.30%] | 0.6842 | [0.6503, 0.7188] |
+| **Clean (Ground Truth)** | 66.2 | [63.40%, 69.10%] | 0.7242 | [0.6933, 0.7550] |
+| **PFAN Desmoked (Restored Output)** | 63.8 | [60.90%, 66.70%] | 0.7153 | [0.6842, 0.7465] |
+| **Random Chance Baseline** | 50.0 | — | 0.5 | — |
+

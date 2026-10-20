@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+wandb/
+
+# Temporary and local debug files
+debug_log.txt
+debug_protocol_dump.txt
+*.tmp
+*.log
+.tempmediaStorage/
+
+# Large dataset image files (2.8 GB Cholec80 raw frames)
+project_files/datasets/
+*.bmp
+*.raw
+
+# Generated image folders in results (track CSV/MD results only)
+project_files/results/arms/
+project_files/results/frequency_subbands/
+project_files/results/pfan_desmoked_test/
+
+# Keep only the essential latest and final generator checkpoints in pfan_Final
+pfan_Final/web/
+pfan_Final/*_net_*.pth
+!pfan_Final/latest_net_G.pth
+!pfan_Final/200_net_G.pth
+
+# Ignore logs
+*.log
+visdom.log
